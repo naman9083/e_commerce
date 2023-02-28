@@ -76,8 +76,6 @@ class _signUpState extends State<signUp> {
                     MaterialPageRoute(builder: (context) => const Login())),
               });
       auth.currentUser?.updateDisplayName(_nameController.text);
-
-      auth.currentUser?.updatePhoneNumber(_phoneController.text);
     }
   }
 

@@ -170,7 +170,9 @@ class _LoginState extends State<Login> {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10)),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        _onSubmit();
+                      },
                       child: Container(
                           width: .8 * w,
                           height: 50,
